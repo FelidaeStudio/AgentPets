@@ -1,0 +1,26 @@
+{
+  "source": "pets\\lucyblade\\run\\generated\\look-anchor-repairs\\000-source.png",
+  "reference": "pets\\lucyblade\\run\\generated\\look-anchor-repairs\\000-rejected-neutral.png",
+  "output": "pets\\lucyblade\\run\\decoded\\look-anchors\\000.png",
+  "source_bbox": [
+    356,
+    155,
+    1015,
+    1135
+  ],
+  "reference_bbox": [
+    33,
+    5,
+    159,
+    203
+  ],
+  "scale": 0.19119878603945373,
+  "placement": [
+    33,
+    16
+  ],
+  "output_size": [
+    192,
+    208
+  ]
+}

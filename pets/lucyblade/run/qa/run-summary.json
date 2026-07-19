@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "petId": "lunablade",
+  "displayName": "Lucyblade",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11
+  },
+  "standardRows": {
+    "structuralInspection": "pass",
+    "independentVisualInspection": "pass"
+  },
+  "lookDirections": {
+    "cardinalSemanticGate": "pass-after-000-repair",
+    "row9RegisteredVisualInspection": "pass",
+    "fullLoopLabeledVisualInspection": "pass-after-row10-retries",
+    "blindReviewers": 3,
+    "blindHardGates": "pass",
+    "blindReviewWarningsRetained": true
+  },
+  "finalAtlas": {
+    "despillPasses": 1,
+    "strictValidation": "pass",
+    "errors": 0,
+    "warnings": 0
+  },
+  "packageVisualInspection": "pass",
+  "notes": [
+    "All selected image-generation sources are archived under generated/selected.",
+    "Rejected cardinal and complete row-10 candidates are retained for reproducibility.",
+    "The legacy v1 run remains under ../run and is not the active package source."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "lucyblade",
+  "displayName": "Lucyblade",
+  "description": "A tiny pixel-chibi cyberpunk netrunner inspired by Lucy, wielding a vivid blue lightsaber.",
+  "generator": {
+    "name": "hatch-pet",
+    "type": "codex-curated-skill",
+    "spriteContract": 2
+  },
+  "provenance": {
+    "builtOn": "2026-07-19",
+    "derivedFromPet": "lunablade",
+    "activeRun": "run",
+    "visualReference": {
+      "url": "https://openpets.sh/pets/github-huiishan99-web-shan-verse-0a60ae41",
+      "author": "huiishan99",
+      "localCopy": "rework-inputs/lucy-openpets-reference.webp",
+      "usage": "Lucy identity and pixel-chibi style reference; all animation poses were newly generated"
+    }
+  },
+  "paths": {
+    "run": "run",
+    "sourceAtlasPng": "run/final/spritesheet.png",
+    "sourceAtlasWebp": "run/final/spritesheet.webp",
+    "validation": "run/final/validation.json",
+    "frameReview": "run/qa/review.json",
+    "blindDirectionValidation": "run/qa/blind-verdicts/validation.json",
+    "package": "package",
+    "preview": "run/qa/final-contact-sheet.png"
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 2
+  }
+}
