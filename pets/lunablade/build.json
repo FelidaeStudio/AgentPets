@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "lunablade",
+  "displayName": "Lunablade",
+  "description": "White-haired energy-blade warrior",
+  "generator": {
+    "name": "hatch-pet",
+    "type": "codex-curated-skill"
+  },
+  "provenance": {
+    "originalRunDirectory": "local-imports/lunablade",
+    "importedOn": "2026-07-19",
+    "historicalFilesMissing": [
+      "pet_request.json",
+      "imagegen-jobs.json",
+      "final/validation.json",
+      "qa/review.json",
+      "qa/run-summary.json"
+    ],
+    "postHocValidationOn": "2026-07-19"
+  },
+  "paths": {
+    "run": "run",
+    "sourceAtlasPng": "run/final/spritesheet.png",
+    "sourceAtlasWebp": "run/final/spritesheet.webp",
+    "package": "package",
+    "preview": "run/qa/contact-sheet.png"
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 1872,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 1
+  }
+}
