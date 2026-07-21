@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "lucyna_kushinada",
+  "displayName": "Lucyna Kushinada",
+  "description": "A faithful Lucyna Kushinada-inspired netrunner companion with moonlit waiting, holographic work, and review animations.",
+  "generator": {
+    "name": "external-result-import",
+    "type": "user-provided-zip"
+  },
+  "provenance": {
+    "resultsOnly": true,
+    "importedOn": "2026-07-21",
+    "importedFrom": "local-imports/lucy-codex-pet.zip",
+    "archivedZip": "run/source/lucy-codex-pet.zip",
+    "privacyNote": "The imported manifest and archive were normalized to the public pet id before publication; original private identifiers are intentionally not retained.",
+    "historicalFilesMissing": [
+      "generation prompts",
+      "reference images",
+      "decoded row strips",
+      "extracted frames",
+      "generation job manifest",
+      "original QA reports"
+    ],
+    "postHocValidationOn": "2026-07-21"
+  },
+  "paths": {
+    "run": "run",
+    "sourceAtlasPng": "run/final/spritesheet.png",
+    "sourceAtlasWebp": "run/final/spritesheet.webp",
+    "validation": "run/final/validation.json",
+    "package": "package",
+    "preview": "run/qa/contact-sheet.png"
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 1872,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 1
+  }
+}
