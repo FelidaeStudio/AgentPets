@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "reviewed_by": "independent visual QA workers",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Centered horizontal axis with pupils and chin clearly raised.",
+      "horizontal_evidence": "Pupils and nose remain centered.",
+      "vertical_evidence": "Pupils and chin are raised."
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Pupils and head shift screen-right while retaining upward pitch.",
+      "horizontal_evidence": "Pupils and head move screen-right.",
+      "vertical_evidence": "Upward eye and chin pitch remains visible."
+    },
+    {
+      "direction": "045",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Both axes read correctly, though progression from 022.5 is subtle.",
+      "horizontal_evidence": "Face and pupils remain screen-right.",
+      "vertical_evidence": "Eyes and chin retain an upward pitch."
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Stronger screen-right yaw with sustained upward gaze.",
+      "horizontal_evidence": "Nose, pupils, and cheek balance advance screen-right.",
+      "vertical_evidence": "Raised gaze remains visible."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Nose and pupils sit unmistakably screen-right without rotating the lower body.",
+      "horizontal_evidence": "Nose and pupils are right of head center.",
+      "vertical_evidence": "Vertical gaze is centered."
+    },
+    {
+      "direction": "112.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Face and pupils clearly read screen-right; the lowered-eye and chin cue is subtle but remains in the correct labeled quadrant without reversal.",
+      "horizontal_evidence": "Face and pupils remain screen-right.",
+      "vertical_evidence": "Chin and gaze move downward."
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Screen-right yaw remains visible as eyelids and chin lower further.",
+      "horizontal_evidence": "Nose and pupils remain screen-right.",
+      "vertical_evidence": "Lower eyelids and chin clearly indicate down."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Lowered eyes and chin retain a clear screen-right face angle.",
+      "horizontal_evidence": "Residual right face angle remains visible.",
+      "vertical_evidence": "Eyes and chin are lowered."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Pupils, eyelids, and tucked chin point unmistakably down.",
+      "horizontal_evidence": "Face and pupils are centered.",
+      "vertical_evidence": "Pupils and chin are lowered."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Nose and pupils begin screen-left while eyes and chin remain lowered.",
+      "horizontal_evidence": "Nose and pupils move screen-left.",
+      "vertical_evidence": "Eyes and chin remain lowered."
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Left yaw and cheek balance strengthen while lowered gaze and tucked chin retain down.",
+      "horizontal_evidence": "Face, nose, and pupils yaw farther screen-left.",
+      "vertical_evidence": "Lowered gaze and tucked chin remain clear."
+    },
+    {
+      "direction": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Face, nose, and pupils advance farther screen-left while softened eyelids and lowered chin preserve down.",
+      "horizontal_evidence": "Face and pupils point strongly screen-left.",
+      "vertical_evidence": "Eyelids and chin retain a downward cue."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Nose, pupils, and face sit unmistakably screen-left.",
+      "horizontal_evidence": "Nose and pupils are left of head center.",
+      "vertical_evidence": "Vertical gaze is centered."
+    },
+    {
+      "direction": "292.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Left yaw remains clear; pupils and chin begin rising, but the up cue is subtle at normal size.",
+      "horizontal_evidence": "Face and pupils remain clearly screen-left.",
+      "vertical_evidence": "Pupils and chin begin rising subtly."
+    },
+    {
+      "direction": "315",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Face and pupils remain screen-left and the upward eye and chin cue reads in labeled loop context, though blind vertical review was ambiguous.",
+      "horizontal_evidence": "Face and pupils remain screen-left.",
+      "vertical_evidence": "Eyes and chin are visibly raised."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Raised pupils and chin clearly read up; the residual screen-left cue is subtle but remains continuous approaching 000.",
+      "horizontal_evidence": "A residual screen-left face angle remains.",
+      "vertical_evidence": "Pupils and chin are raised."
+    }
+  ],
+  "warnings": [
+    "045 has subtle progression from 022.5.",
+    "112.5 has a subtle downward cue at normal pet size.",
+    "292.5 has a subtle upward cue at normal pet size.",
+    "315 has blind vertical ambiguity but reads up-left in labeled loop context.",
+    "337.5 has a subtle residual left cue approaching 000."
+  ]
+}

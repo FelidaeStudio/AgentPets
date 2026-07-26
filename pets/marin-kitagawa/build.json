@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "marin-kitagawa",
+  "displayName": "Marin Kitagawa",
+  "description": "A cheerful pixel-chibi Marin Kitagawa companion with blonde-to-pink hair and bright gyaru energy.",
+  "generator": {
+    "name": "hatch-pet",
+    "type": "codex-curated-skill",
+    "spriteContract": 2
+  },
+  "provenance": {
+    "builtOn": "2026-07-26",
+    "activeRun": "run",
+    "referenceSources": [
+      "https://sono-bisque-doll-wa-koi-wo-suru.fandom.com/wiki/Marin_Kitagawa",
+      "https://hero.fandom.com/wiki/Marin_Kitagawa"
+    ],
+    "referenceUsage": "Text-grounded character identity and personality cues; no site artwork copied into the repository",
+    "license": null,
+    "licenseNote": "No license grant; public visibility does not authorize reuse. See FAN-CONTENT-NOTICE.md."
+  },
+  "paths": {
+    "run": "run",
+    "sourceAtlasPng": "run/final/spritesheet-extended.png",
+    "sourceAtlasWebp": "run/final/spritesheet-extended.webp",
+    "validation": "run/final/validation-extended.json",
+    "frameReview": "run/qa/review.json",
+    "blindDirectionValidation": "run/qa/direction-blind-validation.json",
+    "package": "package",
+    "preview": "run/qa/contact-sheet-extended.png"
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 2
+  }
+}

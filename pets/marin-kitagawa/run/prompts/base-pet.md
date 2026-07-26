@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for Codex pet Marin Kitagawa.
+
+Pet identity: Marin Kitagawa from My Dress-Up Darling: upbeat, friendly, expressive gyaru and passionate cosplayer. Compact modest school-uniform look with long light-blonde hair fading to soft pink at the tips, side-swept bangs, dark-pink eyes, multiple tiny silver ear piercings, white collared shirt with rolled sleeves, loose dark tie, light-blue plaid knee-length skirt, black socks, brown loafers, and a small black choker. Keep her youthful chibi design wholesome and nonsexualized; no cosplay costume, no text, no logos..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `pixel`: Pixel-art-adjacent digital mascot with a chunky silhouette, simple dark outline, limited palette, flat cel shading, and visible stepped edges. User style notes: Polished anime pixel-art chibi, large expressive head and eyes, compact full-body proportions, clean clustered pixels, crisp silhouette, modest outfit, readable hair gradient and piercings at pet size..
+
+
+Place a single centered pose on a perfectly flat pure user-selected #00FF00 chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #00FF00 and close colors out of the pet, props, highlights, and effects.

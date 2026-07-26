@@ -1,0 +1,17 @@
+{
+    "ok":  true,
+    "spriteVersionNumber":  2,
+    "run_dir":  "pets\\marin-kitagawa\\run",
+    "spritesheet":  "pets\\marin-kitagawa\\run\\final\\spritesheet-extended.webp",
+    "validation":  "pets\\marin-kitagawa\\run\\final\\validation-extended.json",
+    "chroma_despill":  "pets\\marin-kitagawa\\run\\qa\\chroma-despill-extended.json",
+    "contact_sheet":  "pets\\marin-kitagawa\\run\\qa\\contact-sheet-extended.png",
+    "direction_sheet":  "pets\\marin-kitagawa\\run\\qa\\look-directions.png",
+    "direction_semantics":  "pets\\marin-kitagawa\\run\\qa\\direction-semantics.json",
+    "blind_direction_validation":  "pets\\marin-kitagawa\\run\\qa\\direction-blind-validation.json",
+    "blind_review_resolution":  null,
+    "continuity":  "pets\\marin-kitagawa\\run\\qa\\look-continuity.json",
+    "review":  "pets\\marin-kitagawa\\run\\qa\\review.json",
+    "final_visual_qa":  "pets\\marin-kitagawa\\run\\qa\\final-visual-qa.md",
+    "package":  "pets\\marin-kitagawa\\package"
+}
