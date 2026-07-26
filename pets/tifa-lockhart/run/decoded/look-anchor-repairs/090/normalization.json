@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "pets\\tifa-lockhart\\run\\decoded\\look-anchor-repairs\\090\\four-up-strip.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        1206,
+        1305
+      ],
+      "used_pixels": 322871,
+      "edge_pixels": 0,
+      "output": "pets\\tifa-lockhart\\run\\decoded\\look-anchor-repairs\\090\\normalized\\000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        1206,
+        0,
+        2412,
+        1305
+      ],
+      "used_pixels": 322871,
+      "edge_pixels": 0,
+      "output": "pets\\tifa-lockhart\\run\\decoded\\look-anchor-repairs\\090\\normalized\\090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        2412,
+        0,
+        3618,
+        1305
+      ],
+      "used_pixels": 322871,
+      "edge_pixels": 0,
+      "output": "pets\\tifa-lockhart\\run\\decoded\\look-anchor-repairs\\090\\normalized\\180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        3618,
+        0,
+        4824,
+        1305
+      ],
+      "used_pixels": 322871,
+      "edge_pixels": 0,
+      "output": "pets\\tifa-lockhart\\run\\decoded\\look-anchor-repairs\\090\\normalized\\270.png"
+    }
+  ]
+}

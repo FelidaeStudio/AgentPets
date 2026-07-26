@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "reviewed_by": "independent visual QA workers",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Centered face with unmistakably raised eyes, lids, brows, and chin.",
+      "horizontal_evidence": "Face and nose remain centered.",
+      "vertical_evidence": "Pupils sit high and the chin lifts."
+    },
+    {
+      "direction": "022.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Labeled loop review confirms the first up-right step, although blind horizontal comparison reversed this subtle near-cardinal cue.",
+      "horizontal_evidence": "Pupils and head axis begin moving screen-right.",
+      "vertical_evidence": "Chin and pupils remain elevated."
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Rightward cheek and pupil movement combine with a visible upward gaze.",
+      "horizontal_evidence": "Face plane and pupils track screen-right.",
+      "vertical_evidence": "Eyes remain above level with a mild chin lift."
+    },
+    {
+      "direction": "067.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Pronounced screen-right yaw retains a smaller upward component; blind vertical comparison found that residual up cue ambiguous.",
+      "horizontal_evidence": "Nose and pupils point screen-right.",
+      "vertical_evidence": "A residual upward eye and chin cue remains."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Nose, pupils, and restrained head turn unmistakably point screen-right.",
+      "horizontal_evidence": "Nose and pupils sit right of head center.",
+      "vertical_evidence": "Gaze is approximately level."
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "The right-facing pose begins lowering its eyelids, pupils, and chin.",
+      "horizontal_evidence": "Head and eyes remain clearly screen-right.",
+      "vertical_evidence": "Pupils lower and the chin begins tucking."
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Rightward face orientation persists as the downward head and eye cue strengthens.",
+      "horizontal_evidence": "Nose and face plane remain screen-right.",
+      "vertical_evidence": "Lowered eyes and stronger chin tuck read down."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Downward gaze dominates while a restrained residual rightward bias remains.",
+      "horizontal_evidence": "A small screen-right nose and cheek bias remains.",
+      "vertical_evidence": "Bowed head and lowered eyes approach down."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Centered face, lowered pupils, softened lids, and tucked chin read unmistakably down.",
+      "horizontal_evidence": "Face and nose remain centered.",
+      "vertical_evidence": "Pupils, eyelids, and chin point down."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "The face begins turning screen-left while keeping a strong downward pose.",
+      "horizontal_evidence": "Nose, pupils, and face opening begin shifting screen-left.",
+      "vertical_evidence": "Chin and gaze remain strongly lowered."
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Screen-left yaw increases while lowered eyes and bowed head retain the down component.",
+      "horizontal_evidence": "Nose and facial center move farther screen-left.",
+      "vertical_evidence": "Eyes remain below neutral and the head stays bowed."
+    },
+    {
+      "direction": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Leftward pose approaches the cardinal with a visible residual downward cue.",
+      "horizontal_evidence": "Head and face point strongly screen-left.",
+      "vertical_evidence": "Eyelids, pupils, and chin remain slightly lowered."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Nose, pupils, and restrained profile unmistakably point screen-left.",
+      "horizontal_evidence": "Nose and pupils sit left of head center.",
+      "vertical_evidence": "Gaze is approximately level."
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "The left-facing pose begins lifting its chin and eyes.",
+      "horizontal_evidence": "Nose and pupils remain clearly screen-left.",
+      "vertical_evidence": "Chin and pupils rise above the 270 level."
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Leftward displacement softens while the upward eye and chin angle strengthens.",
+      "horizontal_evidence": "A clear screen-left face bias remains.",
+      "vertical_evidence": "Pupils and chin lift distinctly."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "A strong upward gaze lands one step before 000; labeled loop review confirms the residual left component although blind horizontal comparison reversed it.",
+      "horizontal_evidence": "Nose and face retain a subtle screen-left bias.",
+      "vertical_evidence": "Chin and pupils are strongly raised."
+    }
+  ],
+  "warnings": [
+    "022.5 and 337.5 have subtle horizontal cues that reversed in a blind near-cardinal comparison; labeled normal-size loop review confirms the intended up-right and up-left progression without reversal.",
+    "067.5 has a subtle upward cue in blind isolation; labeled normal-size loop review confirms up-right progression approaching 090."
+  ]
+}

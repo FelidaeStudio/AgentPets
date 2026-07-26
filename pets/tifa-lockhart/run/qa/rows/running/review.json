@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": "pets\\tifa-lockhart\\run\\frames",
+  "states": [
+    "running"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11632,
+          "bbox": [
+            52,
+            5,
+            140,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 126
+        },
+        {
+          "index": 1,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11369,
+          "bbox": [
+            53,
+            5,
+            138,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 155
+        },
+        {
+          "index": 2,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11391,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 149
+        },
+        {
+          "index": 3,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11462,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 132
+        },
+        {
+          "index": 4,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11383,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 125
+        },
+        {
+          "index": 5,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11436,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 129
+        }
+      ]
+    }
+  ]
+}

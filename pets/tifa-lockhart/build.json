@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "tifa-lockhart",
+  "displayName": "Tifa Lockhart",
+  "description": "A strong and caring pixel-chibi Tifa Lockhart companion with martial-arts energy.",
+  "generator": {
+    "name": "hatch-pet",
+    "type": "codex-curated-skill",
+    "spriteContract": 2
+  },
+  "provenance": {
+    "builtOn": "2026-07-26",
+    "activeRun": "run",
+    "referenceSources": [
+      "https://finalfantasy.fandom.com/wiki/Tifa_Lockhart",
+      "https://www.square-enix-games.com/en_GB/news/final-fantasy-vii-rebirth-closer-look"
+    ],
+    "referenceUsage": "Text-grounded character identity and personality cues; no site artwork copied into the repository",
+    "license": null,
+    "licenseNote": "No license grant; public visibility does not authorize reuse. See FAN-CONTENT-NOTICE.md."
+  },
+  "paths": {
+    "run": "run",
+    "sourceAtlasPng": "run/final/spritesheet-extended.png",
+    "sourceAtlasWebp": "run/final/spritesheet-extended.webp",
+    "validation": "run/final/validation-extended.json",
+    "frameReview": "run/qa/review.json",
+    "blindDirectionValidation": "run/qa/direction-blind-validation.json",
+    "package": "package",
+    "preview": "run/qa/contact-sheet-extended.png"
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 2
+  }
+}

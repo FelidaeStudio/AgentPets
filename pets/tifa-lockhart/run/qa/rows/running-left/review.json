@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": "pets\\tifa-lockhart\\run\\frames",
+  "states": [
+    "running-left"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15504,
+          "bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 341
+        },
+        {
+          "index": 1,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14496,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 270
+        },
+        {
+          "index": 2,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15995,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 354
+        },
+        {
+          "index": 3,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19500,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 364
+        },
+        {
+          "index": 4,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14937,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 309
+        },
+        {
+          "index": 5,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14097,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 290
+        },
+        {
+          "index": 6,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14419,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 275
+        },
+        {
+          "index": 7,
+          "file": "pets\\tifa-lockhart\\run\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15256,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 328
+        }
+      ]
+    }
+  ]
+}
