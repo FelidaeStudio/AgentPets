@@ -1,0 +1,50 @@
+{
+  "repositoryFormatVersion": 2,
+  "pets": [
+    {
+      "id": "lunablade",
+      "name": "Lunablade",
+      "description": "White-haired energy-blade warrior",
+      "build": "pets/lunablade/build.json",
+      "run": "pets/lunablade/run",
+      "package": "pets/lunablade/package",
+      "preview": "pets/lunablade/run/qa/contact-sheet.png"
+    },
+    {
+      "id": "lucyblade",
+      "name": "Lucyblade",
+      "description": "A tiny pixel-chibi cyberpunk netrunner inspired by Lucy, wielding a vivid blue lightsaber.",
+      "build": "pets/lucyblade/build.json",
+      "run": "pets/lucyblade/run",
+      "package": "pets/lucyblade/package",
+      "preview": "pets/lucyblade/run/qa/final-contact-sheet.png"
+    },
+    {
+      "id": "lucyna_kushinada",
+      "name": "Lucyna Kushinada",
+      "description": "A faithful Lucyna Kushinada-inspired netrunner companion with moonlit waiting, holographic work, and review animations.",
+      "build": "pets/lucyna_kushinada/build.json",
+      "run": "pets/lucyna_kushinada/run",
+      "package": "pets/lucyna_kushinada/package",
+      "preview": "pets/lucyna_kushinada/run/qa/contact-sheet.png"
+    },
+    {
+      "id": "marin-kitagawa",
+      "name": "Marin Kitagawa",
+      "description": "A cheerful pixel-chibi Marin Kitagawa companion with blonde-to-pink hair and bright gyaru energy.",
+      "build": "pets/marin-kitagawa/build.json",
+      "run": "pets/marin-kitagawa/run",
+      "package": "pets/marin-kitagawa/package",
+      "preview": "pets/marin-kitagawa/run/qa/contact-sheet-extended.png"
+    },
+    {
+      "id": "tifa-lockhart",
+      "name": "Tifa Lockhart",
+      "description": "A strong and caring pixel-chibi Tifa Lockhart companion with martial-arts energy.",
+      "build": "pets/tifa-lockhart/build.json",
+      "run": "pets/tifa-lockhart/run",
+      "package": "pets/tifa-lockhart/package",
+      "preview": "pets/tifa-lockhart/run/qa/contact-sheet-extended.png"
+    }
+  ]
+}

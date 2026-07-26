@@ -1,0 +1,52 @@
+name: Validate repository
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - windows-latest
+          - ubuntu-latest
+          - macos-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Test publication validator
+        shell: pwsh
+        run: ./tests/validate-publication.ps1
+
+      - name: Test cross-platform packaging and installation
+        shell: pwsh
+        run: ./tests/cross-platform.ps1
+
+      - name: Parse JSON
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem -LiteralPath . -Recurse -File -Filter *.json |
+            Where-Object { $_.FullName -notmatch '[\\/]\.git[\\/]' }
+          foreach ($file in $files) {
+            Get-Content -Raw -Encoding UTF8 -LiteralPath $file.FullName |
+              ConvertFrom-Json |
+              Out-Null
+          }
+          Write-Host "JSON parse passed for $($files.Count) file(s)."
+
+      - name: Validate pets
+        shell: pwsh
+        run: ./scripts/validate-pets.ps1
+
+      - name: Test installation of every pet
+        shell: pwsh
+        run: ./tests/install-all.ps1
