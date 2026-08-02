@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "hachiware",
+  "displayName": "Hachiware",
+  "description": "A cheerful Hachiware-inspired companion with large highlighted eyes and two cute pointed fangs.",
+  "generator": {
+    "name": "hatch-pet",
+    "type": "codex-curated-skill",
+    "spriteContract": 2
+  },
+  "provenance": {
+    "builtOn": "2026-07-31",
+    "activeRun": "run",
+    "referenceSources": [
+      "https://chiikawa.fandom.com/wiki/Hachiware",
+      "https://www.chiikawaofficial.com/characters"
+    ],
+    "referenceUsage": "Official-page visual and personality cues informed the generated identity; no site artwork was copied into the repository"
+  },
+  "paths": {
+    "run": "run",
+    "sourceAtlasPng": "run/final/spritesheet.png",
+    "sourceAtlasWebp": "run/final/spritesheet.webp",
+    "validation": "run/final/validation.json",
+    "frameReview": "run/qa/review.json",
+    "blindDirectionValidation": "run/qa/direction-blind-validation.json",
+    "package": "package",
+    "preview": "run/qa/contact-sheet.png"
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 2
+  }
+}

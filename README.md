@@ -21,6 +21,24 @@
 | [Lucyna Kushinada](pets/lucyna_kushinada/README.md) | `lucyna_kushinada` | v1 | [BUILD.md](pets/lucyna_kushinada/BUILD.md) | [`package/`](pets/lucyna_kushinada/package/) |
 | [Marin Kitagawa](pets/marin-kitagawa/README.md) | `marin-kitagawa` | v2 | [BUILD.md](pets/marin-kitagawa/BUILD.md) | [`package/`](pets/marin-kitagawa/package/) |
 | [Tifa Lockhart](pets/tifa-lockhart/README.md) | `tifa-lockhart` | v2 | [BUILD.md](pets/tifa-lockhart/BUILD.md) | [`package/`](pets/tifa-lockhart/package/) |
+| [Hachiware](pets/hachiware/README.md) | `hachiware` | v2 | [BUILD.md](pets/hachiware/BUILD.md) | [`package/`](pets/hachiware/package/) |
+
+## Pets 预览
+
+<table>
+  <tr>
+    <td align="center"><a href="pets/lunablade/README.md"><strong>Lunablade</strong></a><br><img src="pets/lunablade/run/qa/contact-sheet.png" width="360" alt="Lunablade animation preview"></td>
+    <td align="center"><a href="pets/lucyblade/README.md"><strong>Lucyblade</strong></a><br><img src="pets/lucyblade/run/qa/final-contact-sheet.png" width="360" alt="Lucyblade animation preview"></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="pets/lucyna_kushinada/README.md"><strong>Lucyna Kushinada</strong></a><br><img src="pets/lucyna_kushinada/run/qa/contact-sheet.png" width="360" alt="Lucyna Kushinada animation preview"></td>
+    <td align="center"><a href="pets/marin-kitagawa/README.md"><strong>Marin Kitagawa</strong></a><br><img src="pets/marin-kitagawa/run/qa/contact-sheet-extended.png" width="360" alt="Marin Kitagawa animation preview"></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="pets/tifa-lockhart/README.md"><strong>Tifa Lockhart</strong></a><br><img src="pets/tifa-lockhart/run/qa/contact-sheet-extended.png" width="360" alt="Tifa Lockhart animation preview"></td>
+    <td align="center"><a href="pets/hachiware/README.md"><strong>Hachiware</strong></a><br><img src="pets/hachiware/run/qa/contact-sheet.png" width="360" alt="Hachiware animation preview"></td>
+  </tr>
+</table>
 
 ## 安装
 

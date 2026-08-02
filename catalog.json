@@ -45,6 +45,15 @@
       "run": "pets/tifa-lockhart/run",
       "package": "pets/tifa-lockhart/package",
       "preview": "pets/tifa-lockhart/run/qa/contact-sheet-extended.png"
+    },
+    {
+      "id": "hachiware",
+      "name": "Hachiware",
+      "description": "A cheerful Hachiware-inspired companion with large highlighted eyes and two cute pointed fangs.",
+      "build": "pets/hachiware/build.json",
+      "run": "pets/hachiware/run",
+      "package": "pets/hachiware/package",
+      "preview": "pets/hachiware/run/qa/contact-sheet.png"
     }
   ]
 }

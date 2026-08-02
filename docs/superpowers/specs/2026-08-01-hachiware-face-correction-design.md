@@ -12,11 +12,11 @@ Repair the existing Hachiware v2 pet so its face reads much closer to the offici
 
 ## Locked visual traits
 
-- Large ring-shaped eyes with a bold black perimeter and visible white interior highlight; never tiny bean eyes.
+- Large round black eyes preserving both official white highlight shapes: the central white oval and lower white crescent; never tiny bean eyes.
 - Short curved eyebrows, compact eye-to-mouth spacing, and pink cheek marks with short diagonal hatching.
 - Low blue hachiware forehead marking with a clear central white wedge.
 - Soft, slightly elongated bean body with tiny limbs, small tail, and cat-like ears.
-- Cheerful open mouth with a readable small pointed tooth. The tooth must remain visible in suitable happy expressions without becoming oversized.
+- Cheerful open mouth with two small pointed white fangs and a pink tongue. Do not delete either tooth or close the mouth in the canonical happy expression.
 - Simple hand-drawn black outline and flat colors; no glossy 3D rendering, plush texture, or invented eye style.
 
 ## Repair workflow
@@ -33,4 +33,3 @@ Repair the existing Hachiware v2 pet so its face reads much closer to the offici
 - The face retains the official compact arrangement, cheeks, blue forehead split, and pointed-tooth smile.
 - No row falls back to tiny black oval eyes or develops a different mascot identity.
 - The package remains an 8x11 v2 atlas and passes all existing repository validation and temporary installation tests.
-

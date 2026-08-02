@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "pets/hachiware/run/decoded/look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        508,
+        774
+      ],
+      "used_pixels": 47906,
+      "edge_pixels": 0,
+      "output": "pets/hachiware/run/decoded/look-anchors/000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        508,
+        0,
+        1016,
+        774
+      ],
+      "used_pixels": 39869,
+      "edge_pixels": 0,
+      "output": "pets/hachiware/run/decoded/look-anchors/090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1016,
+        0,
+        1524,
+        774
+      ],
+      "used_pixels": 42071,
+      "edge_pixels": 0,
+      "output": "pets/hachiware/run/decoded/look-anchors/180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1524,
+        0,
+        2032,
+        774
+      ],
+      "used_pixels": 39541,
+      "edge_pixels": 0,
+      "output": "pets/hachiware/run/decoded/look-anchors/270.png"
+    }
+  ]
+}

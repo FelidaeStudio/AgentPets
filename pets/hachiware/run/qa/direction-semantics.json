@@ -1,0 +1,24 @@
+{
+  "overall": "pass",
+  "review_warnings": "Labeled poses preserve their intended quadrants and the clockwise loop does not reverse. Continuity warnings at 180->202.5, 247.5->270, and 337.5->000 reflect intentional transitions between front, profile, and raised-face views. Reported alpha holes are exterior negative spaces around ears or feet rather than body seams. Identity, large highlighted eyes, paired fangs, and blue-white markings remain stable.",
+  "directions": [
+    {"direction":"000","expected":"up","observed":"up","verdict":"pass","reason":"Face is centered and lifted toward the forehead, with both large highlighted eyes high beneath the symmetric blue crown; the paired fangs remain intact."},
+    {"direction":"022.5","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Horizontal: eyes, mouth, and white forehead peak begin shifting screen-right. Vertical: the eyes remain high and the face reads lifted from neutral."},
+    {"direction":"045","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Horizontal: the face cluster and forehead opening are clearly displaced screen-right. Vertical: eyes and brows remain in the upper facial area."},
+    {"direction":"067.5","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Horizontal: eyes, tooth, and cheek emphasis sit strongly screen-right. Vertical: the eyes stay raised beneath the high forehead opening."},
+    {"direction":"090","expected":"right","observed":"right","verdict":"pass","reason":"The entire face cluster is unmistakably shifted toward the screen-right edge while remaining vertically neutral."},
+    {"direction":"112.5","expected":"down-right","observed":"down-right","verdict":"pass","reason":"Horizontal: eyes, mouth, and cheek emphasis remain screen-right. Vertical: the face cluster drops lower than 090."},
+    {"direction":"135","expected":"down-right","observed":"down-right","verdict":"pass","reason":"Horizontal: facial landmarks remain visibly right of body center. Vertical: eyes and tooth sit low on the face."},
+    {"direction":"157.5","expected":"down-right","observed":"down-right","verdict":"pass","reason":"Horizontal: the low face retains a visible screen-right bias. Vertical: eyes and mouth are near the bottom of the face, one step before down."},
+    {"direction":"180","expected":"down","observed":"down","verdict":"pass","reason":"The face is centered at the bottom of the head with eyes and tooth unmistakably lowered."},
+    {"direction":"202.5","expected":"down-left","observed":"down-left","verdict":"warning","reason":"Horizontal: eyes, mouth, and forehead opening shift screen-left. Vertical: the labeled face remains low and follows smoothly from 180 toward 225 despite the blind vertical vote reading up."},
+    {"direction":"225","expected":"down-left","observed":"down-left","verdict":"pass","reason":"Horizontal: the facial cluster is clearly left of center. Vertical: eyes and tooth remain low."},
+    {"direction":"247.5","expected":"down-left","observed":"down-left","verdict":"pass","reason":"Horizontal: face and cheek emphasis remain strongly screen-left. Vertical: the eyes remain low while beginning a smooth rise toward 270."},
+    {"direction":"270","expected":"left","observed":"left","verdict":"pass","reason":"The face cluster is unmistakably displaced toward the screen-left edge at a vertically neutral level."},
+    {"direction":"292.5","expected":"up-left","observed":"up-left","verdict":"pass","reason":"Horizontal: eyes, mouth, and forehead opening remain screen-left. Vertical: facial landmarks rise above the 270 level."},
+    {"direction":"315","expected":"up-left","observed":"up-left","verdict":"pass","reason":"Horizontal: the face cluster retains a clear screen-left bias. Vertical: eyes and brows sit high beneath the forehead opening."},
+    {"direction":"337.5","expected":"up-left","observed":"up-left","verdict":"warning","reason":"Horizontal: face and forehead opening remain slightly screen-left. Vertical: the labeled pose sits higher and transitions directly into centered 000 without reversal, though blind vertical review read it as down."}
+  ],
+  "repair_rows": "none",
+  "repair_note": "none"
+}

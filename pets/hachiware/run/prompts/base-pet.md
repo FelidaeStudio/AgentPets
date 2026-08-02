@@ -1,0 +1,10 @@
+Create one clean full-body reference sprite for Codex pet Hachiware.
+
+Pet identity: Hachiware from Chiikawa, using the attached official character PNG as the sole visual source. Match its soft white round pear-shaped merged head-body silhouette, short pointed ears, pale-blue hachiware forehead split with a narrow white center wedge, blue ears, tiny blue tail, noodle arms, and tiny feet. Copy the official facial construction faithfully: two large round black eyes, each with the same central white oval highlight and lower white crescent highlight; short curved eyebrows; tight eye-to-mouth spacing; pink cheek patches with four short diagonal hatch lines; and a cheerful open mouth with two small pointed white fangs plus a pink tongue. Preserve the official proportions; do not reinterpret it as a generic cat.
+Style: Simple flat hand-drawn Japanese kawaii line art matching the attached official reference: slightly imperfect black outline and pure flat colors. Preserve both eye highlights and both pointed teeth. No gradients, 3D rendering, fur texture, paw-toe lines, or added details.
+
+Visual reference: the supplied official Hachiware character image defines the exact face, head marking, body proportions, outline character, palette, and cheerful expression. Do not copy the written character name or phonetic text from the reference.
+
+Place a single centered pose on a perfectly flat pure user-selected #00FF00 chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #00FF00 and close colors out of the pet, props, highlights, and effects.
+
+Avoid: tiny bean eyes, narrow vertical eyes, removing either official white eye highlight shape, shrinking the eyes, removing either pointed fang, closing the mouth, omitting the pink tongue, oversized anime eyes, extra sparkles beyond the official highlights, generic cat proportions, separate oversized head, plush or 3D texture, copied lettering, watermark.
