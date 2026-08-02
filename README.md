@@ -1,20 +1,21 @@
 # AgentPets
 
-用于保存、审查、安装和分享 Codex 自定义 Pets 的多 Pet 仓库。
+A multi-pet repository for preserving, reviewing, installing, and sharing
+custom Codex Pets.
 
-这个仓库同时保留：
+The repository keeps both:
 
-- `run/`：hatch-pet 的构建证据，包括 prompts、参考图、逐帧图、最终 atlas、
-  QA 和验证结果。
-- `package/`：Codex 可直接安装的 `pet.json + spritesheet.webp`。
+- `run/`: reproducible hatch-pet build evidence, including prompts,
+  references, extracted frames, final atlases, QA, and validation results.
+- `package/`: the directly installable `pet.json + spritesheet.webp` pair.
 
-> 本仓库不包含许可证，也不授予代码或美术素材的复用权。角色相关内容属于
-> 非官方同人作品；公开或使用前请阅读
-> [FAN-CONTENT-NOTICE.md](FAN-CONTENT-NOTICE.md)。
+> This repository does not include a license or grant reuse rights for its
+> code or artwork. Character-related content is unofficial fan work. Read
+> [FAN-CONTENT-NOTICE.md](FAN-CONTENT-NOTICE.md) before publishing or using it.
 
 ## Pets
 
-| Pet | ID | Contract | 构建记录 | 安装包 |
+| Pet | ID | Contract | Build record | Package |
 | --- | --- | --- | --- | --- |
 | [Lunablade](pets/lunablade/README.md) | `lunablade` | v1 | [BUILD.md](pets/lunablade/BUILD.md) | [`package/`](pets/lunablade/package/) |
 | [Lucyblade](pets/lucyblade/README.md) | `lucyblade` | v2 | [BUILD.md](pets/lucyblade/BUILD.md) | [`package/`](pets/lucyblade/package/) |
@@ -23,68 +24,69 @@
 | [Tifa Lockhart](pets/tifa-lockhart/README.md) | `tifa-lockhart` | v2 | [BUILD.md](pets/tifa-lockhart/BUILD.md) | [`package/`](pets/tifa-lockhart/package/) |
 | [Hachiware](pets/hachiware/README.md) | `hachiware` | v2 | [BUILD.md](pets/hachiware/BUILD.md) | [`package/`](pets/hachiware/package/) |
 
-## Pets 预览
+## Preview
+
+Each card shows one representative idle frame rather than a complete
+spritesheet or contact sheet.
 
 <table>
   <tr>
-    <td align="center"><a href="pets/lunablade/README.md"><strong>Lunablade</strong></a><br><img src="pets/lunablade/run/qa/contact-sheet.png" width="360" alt="Lunablade animation preview"></td>
-    <td align="center"><a href="pets/lucyblade/README.md"><strong>Lucyblade</strong></a><br><img src="pets/lucyblade/run/qa/final-contact-sheet.png" width="360" alt="Lucyblade animation preview"></td>
+    <td align="center"><a href="pets/lunablade/README.md"><strong>Lunablade</strong></a><br><img src="pets/lunablade/run/frames/idle/00.png" width="180" alt="Lunablade representative idle frame"></td>
+    <td align="center"><a href="pets/lucyblade/README.md"><strong>Lucyblade</strong></a><br><img src="pets/lucyblade/run/qa/frames/idle/00.png" width="180" alt="Lucyblade representative idle frame"></td>
+    <td align="center"><a href="pets/lucyna_kushinada/README.md"><strong>Lucyna Kushinada</strong></a><br><img src="pets/lucyna_kushinada/run/qa/representative-frame.png" width="180" alt="Lucyna Kushinada representative idle frame"></td>
   </tr>
   <tr>
-    <td align="center"><a href="pets/lucyna_kushinada/README.md"><strong>Lucyna Kushinada</strong></a><br><img src="pets/lucyna_kushinada/run/qa/contact-sheet.png" width="360" alt="Lucyna Kushinada animation preview"></td>
-    <td align="center"><a href="pets/marin-kitagawa/README.md"><strong>Marin Kitagawa</strong></a><br><img src="pets/marin-kitagawa/run/qa/contact-sheet-extended.png" width="360" alt="Marin Kitagawa animation preview"></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="pets/tifa-lockhart/README.md"><strong>Tifa Lockhart</strong></a><br><img src="pets/tifa-lockhart/run/qa/contact-sheet-extended.png" width="360" alt="Tifa Lockhart animation preview"></td>
-    <td align="center"><a href="pets/hachiware/README.md"><strong>Hachiware</strong></a><br><img src="pets/hachiware/run/qa/contact-sheet.png" width="360" alt="Hachiware animation preview"></td>
+    <td align="center"><a href="pets/marin-kitagawa/README.md"><strong>Marin Kitagawa</strong></a><br><img src="pets/marin-kitagawa/run/frames/idle/00.png" width="180" alt="Marin Kitagawa representative idle frame"></td>
+    <td align="center"><a href="pets/tifa-lockhart/README.md"><strong>Tifa Lockhart</strong></a><br><img src="pets/tifa-lockhart/run/frames/idle/00.png" width="180" alt="Tifa Lockhart representative idle frame"></td>
+    <td align="center"><a href="pets/hachiware/README.md"><strong>Hachiware</strong></a><br><img src="pets/hachiware/run/frames/idle/00.png" width="180" alt="Hachiware representative idle frame"></td>
   </tr>
 </table>
 
-## 安装
+## Installation
 
-将 `<pet-id>` 替换为表格里的 ID。
+Replace `<pet-id>` with an ID from the table above.
 
-Windows PowerShell：
+Windows PowerShell:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-pet.ps1 -PetId <pet-id>
 ```
 
-Windows、Linux 或 macOS 上的 PowerShell 7：
+PowerShell 7 on Windows, Linux, or macOS:
 
 ```powershell
 pwsh -NoProfile -File scripts/install-pet.ps1 -PetId <pet-id>
 ```
 
-如果同名 Pet 已存在，需要明确允许覆盖：
+If a pet with the same ID already exists, explicitly allow replacement:
 
 ```powershell
 pwsh -NoProfile -File scripts/install-pet.ps1 -PetId <pet-id> -Force
 ```
 
-安装脚本按以下顺序决定 Codex home：
+The installer resolves the Codex home directory in this order:
 
-1. `-CodexHome` 参数；
-2. `CODEX_HOME` 环境变量；
-3. 当前平台的用户目录下 `.codex`。
+1. The `-CodexHome` argument.
+2. The `CODEX_HOME` environment variable.
+3. `.codex` under the current platform's user directory.
 
-默认安装位置：
+Default installation locations:
 
-- Windows：`%USERPROFILE%\.codex\pets\<pet-id>\`
-- Linux：`$HOME/.codex/pets/<pet-id>/`
-- macOS：`$HOME/.codex/pets/<pet-id>/`
+- Windows: `%USERPROFILE%\.codex\pets\<pet-id>\`
+- Linux: `$HOME/.codex/pets/<pet-id>/`
+- macOS: `$HOME/.codex/pets/<pet-id>/`
 
-目标目录中只会出现：
+The destination directory contains only:
 
 ```text
 pet.json
 spritesheet.webp
 ```
 
-然后在 Codex 中打开 **Settings > Pets > Refresh**，选择对应 Pet，再输入
-`/pet`。
+After installation, open **Settings > Pets > Refresh** in Codex, select the
+pet, and enter `/pet`.
 
-## 仓库结构
+## Repository layout
 
 ```text
 AgentPets/
@@ -114,16 +116,16 @@ AgentPets/
     └── run/
 ```
 
-## 重新生成安装包
+## Rebuild an installation package
 
 ```powershell
 pwsh -NoProfile -File scripts/package-pet.ps1 -PetId <pet-id>
 ```
 
-脚本根据 `build.json` 指向的最终 WebP 确定性生成 `package/`。对于 v2 Pet，
-生成的 manifest 必须包含 `spriteVersionNumber: 2`。
+The script deterministically builds `package/` from the final WebP referenced
+by `build.json`. A v2 pet manifest must include `spriteVersionNumber: 2`.
 
-## 验证
+## Validation
 
 ```powershell
 pwsh -NoProfile -File tests/validate-publication.ps1
@@ -132,26 +134,31 @@ pwsh -NoProfile -File scripts/validate-pets.ps1
 pwsh -NoProfile -File tests/install-all.ps1
 ```
 
-验证覆盖：
+Validation covers:
 
-- catalog、build metadata 和 package manifest 一致性；
-- v1/v2 atlas 尺寸、PNG alpha 类型、WebP 哈希和 20 MiB package 上限；
-- hatch-pet 验证及 QA 结果；
-- Windows、Linux、macOS、WSL 与本地文件 URI 隐私路径；
-- 非示例邮箱、常见本地 Codex 存储位置；
-- 下划线/连字符 Pet ID、`CODEX_HOME` 和临时安装。
+- consistency between the catalog, build metadata, and package manifests;
+- v1/v2 atlas dimensions, PNG alpha mode, WebP hashes, and the 20 MiB package
+  limit;
+- hatch-pet validation and QA results;
+- private Windows, Linux, macOS, WSL, and local file URI paths;
+- non-example email addresses, common local Codex storage locations;
+- underscore and hyphen pet IDs, `CODEX_HOME`, and temporary installation.
 
-GitHub Actions 会在 Windows、Ubuntu 和 macOS 上运行同一组检查。
+GitHub Actions runs the same checks on Windows, Ubuntu, and macOS.
 
-## 新增 Pet 与发布
+## Adding and publishing pets
 
-- 新增 Pet：[docs/ADDING_A_PET.md](docs/ADDING_A_PET.md)
-- 发布到 GitHub：[docs/PUBLISHING.md](docs/PUBLISHING.md)
+- Add a pet: [docs/ADDING_A_PET.md](docs/ADDING_A_PET.md)
+- Publish to GitHub: [docs/PUBLISHING.md](docs/PUBLISHING.md)
 
-发布前必须验证待推送的完整提交历史，不得包含本机绝对路径、私人邮箱、临时
-目录或已经废弃的 Pet ID。提交作者应使用与 GitHub 账号关联的 noreply 邮箱。
+Before publishing, validate the complete commit history being pushed. It must
+not contain local absolute paths, private email addresses, temporary
+directories, or retired pet IDs. Commit authors should use a GitHub-associated
+noreply email address.
 
-## 历史完整性
+## Historical integrity
 
-不得为旧 Pet 伪造缺失的历史 manifest。缺失文件应记录在 Pet 的 `BUILD.md`
-和 `build.json` 中；后补验证必须明确标记为后补验证。
+Never fabricate missing historical manifests for an older pet. Record missing
+files in the pet's `BUILD.md` and `build.json`, and clearly identify any later
+validation as a subsequent deterministic check rather than part of the
+original run.

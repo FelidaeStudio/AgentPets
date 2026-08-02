@@ -1,24 +1,29 @@
 # Hachiware
 
-这一版以官方角色页为视觉参考，保留圆润的蓝白身体、大圆黑眼睛、每只眼睛的双高光、粉色腮红、粉色舌头，以及张嘴时露出的两颗可爱小尖牙。
+This version is visually grounded in the official character page. It preserves
+Hachiware's rounded blue-and-white body, large black eyes with two highlights
+in each eye, pink cheeks, pink tongue, and two cute pointed fangs.
 
-![Hachiware animation contact sheet](run/qa/contact-sheet.png)
+![Hachiware representative idle frame](run/frames/idle/00.png)
 
-这是 Hachiware 的 Codex Pet，使用 8 × 11 的 v2 spritesheet。除了 idle、左右移动、挥手、跳跃、失败、等待、运行中和检查动作，还包含 16 个观察方向。Windows、Linux 和 macOS 都可以使用仓库里的脚本安装。
+Hachiware is a Codex Pet using an 8 × 11 v2 spritesheet. It includes idle,
+left- and right-facing movement, waving, jumping, failed, waiting, running, and
+review animations, plus 16 look directions. The repository installation
+scripts support Windows, Linux, and macOS.
 
-文件：
+Files:
 
-- [package/](package/)：安装包
-- [run/qa/contact-sheet.png](run/qa/contact-sheet.png)：动作预览
-- [BUILD.md](BUILD.md)：制作和检查记录
+- [package/](package/) — installable pet package
+- [run/qa/contact-sheet.png](run/qa/contact-sheet.png) — complete animation QA sheet
+- [BUILD.md](BUILD.md) — build provenance and validation record
 
-在仓库根目录安装：
+Install from the repository root:
 
 ```powershell
 pwsh -NoProfile -File scripts/install-pet.ps1 -PetId hachiware
 ```
 
-Windows PowerShell 5.1：
+Windows PowerShell 5.1:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-pet.ps1 -PetId hachiware
