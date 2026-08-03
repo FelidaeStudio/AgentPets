@@ -2,6 +2,8 @@
 
 A strong and caring pixel-chibi Codex pet inspired by Tifa Lockhart from *Final Fantasy VII*, with long dark hair, warm red-brown eyes, her athletic Remake-inspired outfit, and restrained martial-arts energy.
 
+![Tifa Lockhart animation contact sheet](run/qa/contact-sheet-extended.png)
+
 - Build provenance: [BUILD.md](BUILD.md)
 - Installable package: [package/](package/)
 - Final QA preview: [run/qa/contact-sheet-extended.png](run/qa/contact-sheet-extended.png)

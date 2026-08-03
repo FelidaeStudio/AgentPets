@@ -1,12 +1,12 @@
 # Lunablade
 
-白发、黑色装甲、蓝色能量刃的动画 Codex Pet。
+An animated Codex Pet with white hair, black armor, and a blue energy blade.
 
 ![Lunablade animation contact sheet](run/qa/contact-sheet.png)
 
-## 使用
+## Installation
 
-可安装内容位于 [`package/`](package/)：
+The installable files are in [`package/`](package/):
 
 ```text
 package/
@@ -14,27 +14,29 @@ package/
 └── spritesheet.webp
 ```
 
-从仓库根目录运行：
+Run from the repository root:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-pet.ps1 -PetId lunablade
 ```
 
-然后在 Codex 中选择 **Settings > Pets > Refresh > Lunablade**，再输入
-`/pet`。
+Then select **Settings > Pets > Refresh > Lunablade** in Codex and enter
+`/pet`.
 
-## 构建记录
+## Build record
 
-完整的现有构建资产保存在 [`run/`](run/)：
+The complete available build artifacts are preserved in [`run/`](run/):
 
-- `prompts/`：基础角色、动作行、方向修复和重试 prompts。
-- `references/`：canonical base 和 atlas 布局参考。
-- `decoded/`：生成并解码的基础图与动作行。
-- `frames/`：按状态拆分的动画帧。
-- `final/`：标准 atlas、扩展 atlas 和验证结果。
-- `qa/`：contact sheets、动作 GIF、方向检查和帧检查结果。
+- `prompts/`: base-character, animation-row, direction-repair, and retry prompts.
+- `references/`: the canonical base and atlas layout references.
+- `decoded/`: generated and decoded base art and animation rows.
+- `frames/`: animation frames separated by state.
+- `final/`: standard and extended atlases with validation results.
+- `qa/`: contact sheets, motion GIFs, direction checks, and frame inspection results.
 
-详细构建说明、已知缺失历史和后补验证见 [BUILD.md](BUILD.md)。机器可读的
-构建元数据见 [build.json](build.json)。重做的 v2 版本作为独立 Pet 保存在 [`../lucyblade/`](../lucyblade/)。
+See [BUILD.md](BUILD.md) for detailed build notes, known missing history, and
+later validation. Machine-readable metadata is in [build.json](build.json).
+The rebuilt v2 edition is preserved separately as [`../lucyblade/`](../lucyblade/).
 
-公开使用前请阅读仓库根目录的 [FAN-CONTENT-NOTICE.md](../../FAN-CONTENT-NOTICE.md)。
+Before public use, read the repository's
+[FAN-CONTENT-NOTICE.md](../../FAN-CONTENT-NOTICE.md).

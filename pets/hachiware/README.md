@@ -4,7 +4,7 @@ This version is visually grounded in the official character page. It preserves
 Hachiware's rounded blue-and-white body, large black eyes with two highlights
 in each eye, pink cheeks, pink tongue, and two cute pointed fangs.
 
-![Hachiware representative idle frame](run/frames/idle/00.png)
+![Hachiware animation contact sheet](run/qa/contact-sheet.png)
 
 Hachiware is a Codex Pet using an 8 × 11 v2 spritesheet. It includes idle,
 left- and right-facing movement, waving, jumping, failed, waiting, running, and

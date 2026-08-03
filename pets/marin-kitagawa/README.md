@@ -2,6 +2,8 @@
 
 A cheerful pixel-chibi Codex pet inspired by Marin Kitagawa from *My Dress-Up Darling*, with her blonde-to-pink hair, bright gyaru energy, and school-uniform silhouette.
 
+![Marin Kitagawa animation contact sheet](run/qa/contact-sheet-extended.png)
+
 - Build provenance: [BUILD.md](BUILD.md)
 - Installable package: [package/](package/)
 - Final QA preview: [run/qa/contact-sheet-extended.png](run/qa/contact-sheet-extended.png)

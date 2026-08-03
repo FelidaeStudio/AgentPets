@@ -1,26 +1,31 @@
 # Lucyna Kushinada
 
-从用户提供的 `lucy-codex-pet.zip` 导入的 Lucyna Kushinada 风格赛博朋克 Codex Pet。
+A Lucyna Kushinada-inspired cyberpunk Codex Pet imported from the
+user-provided `lucy-codex-pet.zip` archive.
 
 ![Lucyna Kushinada animation contact sheet](run/qa/contact-sheet.png)
 
-## 安装
+## Installation
 
-从仓库根目录运行：
+Run from the repository root:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-pet.ps1 -PetId lucyna_kushinada
 ```
 
-然后在 Codex 中选择 **Settings > Pets > Refresh > Lucyna Kushinada**，再输入 `/pet`。
+Then select **Settings > Pets > Refresh > Lucyna Kushinada** in Codex and
+enter `/pet`.
 
-## 产物与历史
+## Artifacts and history
 
-- `package/`：可直接安装的 `pet.json + spritesheet.webp`。
-- `run/source/`：原始 ZIP、其中的原始 `pet.json` 和 PNG atlas。
-- `run/final/`：从原始 PNG 确定性规范化出的 PNG/WebP，以及后补验证结果。
-- `run/qa/contact-sheet.png`：后补生成的视觉检查表。
+- `package/`: the directly installable `pet.json + spritesheet.webp` pair.
+- `run/source/`: the original ZIP and its original `pet.json` and PNG atlas.
+- `run/final/`: deterministically normalized PNG/WebP files and later validation results.
+- `run/qa/contact-sheet.png`: the subsequently generated visual QA sheet.
 
-这个导入只有最终产物，没有原始 prompts、参考图、row strips、frames 或生成 manifest。仓库没有伪造这些缺失历史；详情见 [BUILD.md](BUILD.md)。
+This import contains only final artifacts. Original prompts, references, row
+strips, frames, and generation manifests were unavailable and have not been
+fabricated. See [BUILD.md](BUILD.md) for details.
 
-公开使用前请阅读仓库根目录的 [FAN-CONTENT-NOTICE.md](../../FAN-CONTENT-NOTICE.md)。
+Before public use, read the repository's
+[FAN-CONTENT-NOTICE.md](../../FAN-CONTENT-NOTICE.md).
